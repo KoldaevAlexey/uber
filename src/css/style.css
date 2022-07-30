@@ -144,3 +144,69 @@ nav {
   color: #ffffff;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
+
+.benefits {
+  background: white;
+  min-width: 860px;
+}
+
+.benefits .benefits_header {
+  display: block;
+  margin: 20px auto;
+  width: 113px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  align-items: center;
+  text-align: center;
+  line-height: 23px;
+  text-transform: uppercase;
+  background-color: black;
+  color: #ffffff;
+}
+
+.benefits .benefits_subheader_big {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.benefits .benefits_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.benefits .benefits_card .benefits_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background: #1eacc7;
+}
+
+.benefits .benefits_card .benefits_text span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1eacc7;
+}
+
+.benefits .benefits_card .benefits_text {
+  margin-left: 25px;
+  width: 371px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #202020;
+}
